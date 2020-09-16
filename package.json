@@ -1,0 +1,28 @@
+{
+  "name": "defi-chirp",
+  "version": "1.0.0",
+  "description": "A boilerplate template for quickly creating financial market reporting/analytics Twitter bots",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DruzyDowns/defi-chirp.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "druzy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DruzyDowns/defi-chirp/issues"
+  },
+  "homepage": "https://github.com/DruzyDowns/defi-chirp#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}
