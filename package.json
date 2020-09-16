@@ -23,6 +23,7 @@
     "dotenv": "^8.2.0"
   },
   "dependencies": {
+    "coingecko-api": "^1.0.10",
     "twit": "^2.2.11"
   }
 }
