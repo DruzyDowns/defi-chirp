@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/DruzyDowns/defi-chirp.git"
   },
   "keywords": [
@@ -23,7 +23,7 @@
     "dotenv": "^8.2.0"
   },
   "dependencies": {
-    "coingecko-api": "^1.0.10",
+    "axios": "^0.20.0",
     "twit": "^2.2.11"
   }
 }

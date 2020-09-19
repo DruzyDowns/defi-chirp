@@ -9,16 +9,6 @@ const uniSubgraphUrl =
   "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2";
 const etherscanUrl = "https://api.etherscan.io/api";
 
-//set up twit to post staus update for user
-const chirp = new Twit({
-  consumer_key: process.env.CONSUMER_KEY,
-  consumer_secret: process.env.CONSUMER_SECRET,
-  access_token: process.env.TOKEN,
-  access_token_secret: process.env.TOKEN_SECRET,
-  timeout_ms: 60 * 1000, // optional HTTP request timeout to apply to all requests.
-  strictSSL: true, // optional - requires SSL certificates to be valid.
-});
-
 //define individual axios requests
 let eth = {
   url: uniSubgraphUrl,
@@ -94,18 +84,7 @@ BTC Mkt Cap: ${tweetData[2]}%
 🦄  Live updates every hour | More bots in bio  🦄
 `;
 
-      //console.log(tweet);
-
-      chirp.post(
-        "statuses/update",
-        {
-          status: tweet,
-        },
-        function (err, data, response) {
-          console.log(err);
-          console.log(data);
-        }
-      );
+      console.log(tweet);
     })
   )
   .catch((errors) => {
