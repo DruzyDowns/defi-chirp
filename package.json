@@ -2,8 +2,9 @@
   "name": "defi-chirp",
   "version": "1.0.0",
   "description": "A boilerplate template for quickly creating financial market reporting/analytics Twitter bots",
-  "main": "bot.js",
+  "main": "index.js",
   "scripts": {
+    "tweet": "node bots/uniswap.js && node bots/sushiswap.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

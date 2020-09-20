@@ -1,2 +1,1 @@
-node bots/uniswap.js
-node bots/sushiswap.js
+npm run tweet
