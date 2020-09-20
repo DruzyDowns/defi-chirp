@@ -1,1 +1,1 @@
-npm run tweet
+npm start
