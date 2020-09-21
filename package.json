@@ -4,8 +4,8 @@
   "description": "A boilerplate template for quickly creating financial market reporting/analytics Twitter bots",
   "main": "index.js",
   "scripts": {
-    "start": "node bots/uniswap.js && node bots/sushiswap.js",
-    "tweet": "node bots/uniswap.js && node bots/sushiswap.js",
+    "start": "node uniswap.js && node sushiswap.js",
+    "tweet": "node uniswap.js && node sushiswap.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

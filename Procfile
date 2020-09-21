@@ -1,2 +1,2 @@
-node sushiswap.js
-node uniswap.js
+worker: node uniswap.js
+worker: node sushiswap.js
