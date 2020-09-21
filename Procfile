@@ -1,2 +1,1 @@
-worker: node uniswap.js
-worker: node sushiswap.js
+worker: npm start
